@@ -29,7 +29,7 @@ void merge(std::vector<T>& arr, size_t start, size_t mid, size_t end) {
 }
 
 template<typename T>
-void mergeSort(std::vector<T>& arr, const size_t start = 0, const size_t end = arr.size()) {
+void mergeSort(std::vector<T>& arr, const size_t start, const size_t end) {
     if (start >= end) {
         return;
     }
